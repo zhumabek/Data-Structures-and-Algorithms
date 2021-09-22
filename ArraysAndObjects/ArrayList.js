@@ -29,6 +29,26 @@ class ArrayList {
         this.length--;
     }
     serialize() {
-        return this.data;
+        let res =  '['
+        const keys = Object.keys(this.data).sort()
+        keys.forEach(k => {
+            if(k == keys.length - 1){
+                res += ` ${this.data[k]} `
+            } else {
+                res += ` ${this.data[k]}, `
+            }
+        })
+
+        res += ']'
+
+        return res
     }
 }
+
+const arr = new ArrayList()
+
+arr.push(1)
+arr.push(4)
+arr.push(6)
+arr.push(0)
+console.log(arr.serialize())
