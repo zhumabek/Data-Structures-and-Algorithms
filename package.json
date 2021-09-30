@@ -1,0 +1,22 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "Intro to computer science using JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhumabek/Data-Structures-and-Algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhumabek/Data-Structures-and-Algorithms/issues"
+  },
+  "homepage": "https://github.com/zhumabek/Data-Structures-and-Algorithms#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1"
+  }
+}
